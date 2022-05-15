@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class JokeAdapter (private val jokesList : ArrayList<Jokes>): RecyclerView.Adapter<JokeAdapter.JokeViewHolder>() {
+class JokeAdapter (private val jokesList : ArrayList<Joke>): RecyclerView.Adapter<JokeAdapter.JokeViewHolder>() {
 
 
 
@@ -16,7 +16,7 @@ class JokeAdapter (private val jokesList : ArrayList<Jokes>): RecyclerView.Adapt
     }
 
     override fun onBindViewHolder(holder: JokeViewHolder, position: Int) {
-        holder.textView.text = jokesList[position].textJoke
+        holder.textView.text = jokesList[position].value
     }
 
     override fun getItemCount()= jokesList.size
