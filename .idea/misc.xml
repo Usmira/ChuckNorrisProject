@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/mariu/Desktop/Kotlin_OUAP/ChuckNorrisProject/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/mariu/Desktop/Kotlin_OUAP/ChuckNorrisProject/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/mariu/Desktop/Kotlin_OUAP/ChuckNorrisProject/app/src/main/res/layout/item_list.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/mariu/Desktop/Kotlin_OUAP/ChuckNorrisProject/app/src/main/res/layout/jokes_view.xml" value="0.1" />
       </map>
     </option>
   </component>
