@@ -1,1 +1,23 @@
-test
+====================================================
+OUAP-4331 Android                       Marius MOREL
+====================================================
+
+  L'objectif de ce projet est de développer une application sous Kotlin à l'aide de l'IDE Android Studio. 
+Cette app devra afficher une liste interactive de blagues concernant Chuck Norris. On récupère ces blagues grâce à l'API
+chucknorris.io en suivant ce lien https://api.chucknorris.io/ .
+
+--> INITIALISATION : Création d'un environnement de travail et association git/github.
+  On crée un répertoire que l'on appelle ChuckNorrisProject, on initialise git dans ce répertoire puis on l'associe à un 
+repository github tout simplement. Pour chaque nouveauté et modification on vient créer un commit que l'on nomme en fonction 
+de l'avancement dans le projet.
+
+--> PARTIE 1 : Création d'une interface déroulante.
+Dans cette partie, nous devions implémenter un RecyclerView pour pouvoir créer notre interface. Pour faire fonctionner notre
+RecyclerView, on doit aussi créer un Adapter. Celui-ci permet de "mettre" des données dans le RecyclerView.
+
+--> PARTIE 2 : Récolte des blagues.
+L'objectif ici est de récupérer les blagues depuis l'API ChuckNorris.io et de faire en sorte que leur format JSON soit compréhensible
+par notre appli. Cette partie consiste surtout en l'importation de différents outils comme Retrofit et RxJava. Il faut aussi
+utiliser la Serialisation pour pouvoir effectuer les "traduction" de JSON. C'est là que j'ai bloqué et que je n'ai pas réussi 
+à me déboguer. La création d'un builder avec retrofit était ok mais les tests de serialisation de la partie 2.1 affichaient 
+toujours la même erreur qui semblait provenir de mon ordinateur ou du logiciel qui ne reconnaissait pas la sérialisation.
